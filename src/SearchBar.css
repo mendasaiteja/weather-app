@@ -1,0 +1,12 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap:0.8em;
+    margin:2em;
+}
+.form-container .true{
+    background-color: antiquewhite;
+    color: antiquewhite;
+}

@@ -1,0 +1,76 @@
+.weather-app {
+    min-height: 100vh;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.weather-app.default {
+    background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
+                url('https://images.unsplash.com/photo-1516912481808-3406841bd33c') center/cover no-repeat;
+}
+
+.weather-app.hot {
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+                url('https://images.unsplash.com/photo-1518604666860-9ed391f76460') center/cover no-repeat;
+}
+
+.weather-app.cold {
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+                url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5') center/cover no-repeat;
+}
+
+.weather-app.rainy {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+                url('https://images.unsplash.com/photo-1534274988757-a28bf1a57c17') center/cover no-repeat;
+    color: white;
+}
+
+.weather-app.dark.default {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1516912481808-3406841bd33c') center/cover no-repeat;
+    color: white;
+}
+
+.weather-app.dark.hot {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1518604666860-9ed391f76460') center/cover no-repeat;
+    color: white;
+}
+
+.weather-app.dark.cold {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5') center/cover no-repeat;
+    color: white;
+}
+
+.weather-app.dark.rainy {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1534274988757-a28bf1a57c17') center/cover no-repeat;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.theme-toggle {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: #ff4444;
+    text-align: center;
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+    font-style: italic;
+}
