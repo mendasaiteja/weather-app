@@ -2,7 +2,7 @@
 
 A responsive weather application with dynamic backgrounds and dark mode support.
 
-[![Live Demo](https://tempvisitor.netlify.app/)]
+[Live Demo](https://tempvisitor.netlify.app/)
 ## Features ✨
 - Real-time weather data
 - Dynamic background based on weather conditions
